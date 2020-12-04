@@ -1,0 +1,9 @@
+Enfoque DatabaseFirst : 
+Scaffolding codigo de las tablas de tus base de datos junto con el contexto usando entity framework core.(.Net core 3.1)
+Ejemplo :
+-Scaffold-DbContext "*connection*" "*provider*" -OutputDir "BackendProject" -ContextDir "DbContexts"
+
+Requisitos:
+-Tener instalado el paquete Microsoft.EntityFrameworkCore
+-Tener instalado el paquete Microsoft.EntityFrameworkCore.Tools
+-Tener instalado el paquete Microsoft.EntityFrameworkCore.SqlServer
