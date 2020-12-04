@@ -1,0 +1,4 @@
+1. eliminar la carpeta ClientApp creada en el proyecto .net por defecto 
+2. ejecutar el siguiente comando en la carpeta del proyecto
+ng new ClientApp --routing --style=css --skip-git --skip-install
+comando para agregar angular 9 en un proyecto .net core que viene instalado el angular 8 como plantilla.
